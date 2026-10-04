@@ -1,5 +1,4 @@
-module top_module( output one )
-    
-    assign one = 1'b1;
-
+module top_module( input in, output out );
+assign out = in;
 endmodule
+
